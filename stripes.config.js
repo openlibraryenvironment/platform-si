@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: { 'url':'http://localhost:9130', 'tenant':'si' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
@@ -7,15 +7,11 @@ module.exports = {
   },
   modules: {
     '@folio/calendar' : {},
-    '@folio/checkin' : {},
-    '@folio/checkout' : {},
-    '@folio/circulation' : {},
     '@folio/developer' : {},
     '@folio/inventory' : {},
     '@folio/myprofile' : {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-user' : {},
-    '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/tags': {},
@@ -24,11 +20,11 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      src: './tenant-assets/reshare-logo.png',
+      alt: 'Project Reshare',
     },
     favicon: {
-      src: './tenant-assets/folio-favicon.png',
+      src: './tenant-assets/reshare-favicon.png',
     },
   },
 };

@@ -8,11 +8,15 @@
     "action": "enable"
   },
   {
-    "id": "mod-circulation-storage-10.0.1",
+    "id": "mod-users-16.0.0",
     "action": "enable"
   },
   {
-    "id": "mod-users-16.0.0",
+    "id": "mod-inventory-13.1.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-circulation-storage-10.0.1",
     "action": "enable"
   },
   {
@@ -40,15 +44,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-feesfines-15.6.0",
+    "id": "mod-feesfines-15.6.1",
     "action": "enable"
   },
   {
     "id": "mod-circulation-17.0.2",
-    "action": "enable"
-  },
-  {
-    "id": "mod-inventory-13.1.1",
     "action": "enable"
   },
   {
@@ -85,10 +85,6 @@
   },
   {
     "id": "mod-login-saml-1.2.2",
-    "action": "enable"
-  },
-  {
-    "id": "mod-codex-inventory-1.5.0",
     "action": "enable"
   }
 ]
