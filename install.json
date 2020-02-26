@@ -60,7 +60,11 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-storage-19.0.0-SNAPSHOT.384",
+    "id": "mod-inventory-storage-19.0.0-shared-inventory.1",
+    "action": "enable"
+  },
+  {
+    "id": "mod-inventory-match-2.4.3-SNAPSHOT.1",
     "action": "enable"
   },
   {
@@ -88,7 +92,7 @@
     "action": "enable"
   },
   {
-    "id": "mod-inventory-14.0.0-SNAPSHOT.192",
+    "id": "mod-inventory-14.0.0-shared-inventory.1",
     "action": "enable"
   },
   {
