@@ -7,9 +7,6 @@ module.exports = {
   },
   modules: {
     '@folio/calendar' : {},
-    '@folio/checkin' : {},
-    '@folio/checkout' : {},
-    '@folio/circulation' : {},
     '@folio/developer' : {},
     '@folio/inventory' : {},
     '@folio/myprofile' : {},
