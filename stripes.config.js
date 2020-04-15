@@ -1,21 +1,20 @@
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: { 'url':'https://okapi-reshare.folio-dev-us-east-1-1.folio-dev.indexdata.com', 'tenant':'si_cardinal' },
   config: {
     logCategories: 'core,path,action,xhr',
     logPrefix: '--',
-    showPerms: false
+    showPerms: false,
+    welcomeMessage: 'ReShare Shared Index -- DEV',
+    platformName: 'SI',
+    platformDescriptrion: 'Shared Index Cardinal',
   },
   modules: {
     '@folio/calendar' : {},
-    '@folio/checkin' : {},
-    '@folio/checkout' : {},
-    '@folio/circulation' : {},
     '@folio/developer' : {},
     '@folio/inventory' : {},
     '@folio/myprofile' : {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-user' : {},
-    '@folio/requests' : {},
     '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/tags': {},
@@ -24,11 +23,11 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      src: './tenant-assets/reshare-logo.png',
+      alt: 'Project ReShare',
     },
     favicon: {
-      src: './tenant-assets/folio-favicon.png',
+      src: './tenant-assets/reshare-favicon.png',
     },
   },
 };

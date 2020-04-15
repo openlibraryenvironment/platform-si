@@ -4,18 +4,6 @@
     "action": "enable"
   },
   {
-    "id": "folio_checkin-2.0.0",
-    "action": "enable"
-  },
-  {
-    "id": "folio_checkout-3.0.1",
-    "action": "enable"
-  },
-  {
-    "id": "folio_circulation-2.0.0",
-    "action": "enable"
-  },
-  {
     "id": "folio_developer-2.0.0",
     "action": "enable"
   },
@@ -33,10 +21,6 @@
   },
   {
     "id": "folio_plugin-find-user-2.0.1",
-    "action": "enable"
-  },
-  {
-    "id": "folio_requests-2.0.2",
     "action": "enable"
   },
   {
@@ -65,10 +49,6 @@
   },
   {
     "id": "folio_users-3.0.2",
-    "action": "enable"
-  },
-  {
-    "id": "mod-codex-inventory-1.6.0",
     "action": "enable"
   }
 ]
