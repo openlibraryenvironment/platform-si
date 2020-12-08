@@ -7,16 +7,11 @@ module.exports = {
   },
   modules: {
     '@folio/calendar' : {},
-    '@folio/checkin' : {},
-    '@folio/checkout' : {},
-    '@folio/circulation' : {},
     '@folio/developer' : {},
-    '@folio/inventory' : {},
     '@folio/myprofile' : {},
+    "@folio/plugin-create-inventory-records": {},
     '@folio/plugin-find-instance' : {},
     '@folio/plugin-find-user' : {},
-    '@folio/requests' : {},
-    '@folio/search' : {},
     '@folio/servicepoints' : {},
     '@folio/tags': {},
     '@folio/tenant-settings' : {},
@@ -24,11 +19,11 @@ module.exports = {
   },
   branding: {
     logo: {
-      src: './tenant-assets/opentown-libraries-logo.png',
-      alt: 'Opentown Libraries',
+      src: './tenant-assets/reshare-logo.png',
+      alt: 'ReShare Shared Index',
     },
     favicon: {
-      src: './tenant-assets/folio-favicon.png',
+      src: './tenant-assets/reshare-favicon.jpg',
     },
   },
 };
