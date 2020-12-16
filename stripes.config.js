@@ -6,8 +6,8 @@ module.exports = {
     showPerms: false
   },
   modules: {
-    '@folio/calendar' : {},
     '@folio/developer' : {},
+    '@folio/inventory' : {},
     '@folio/myprofile' : {},
     "@folio/plugin-create-inventory-records": {},
     '@folio/plugin-find-instance' : {},
