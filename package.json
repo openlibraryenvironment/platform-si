@@ -9,6 +9,8 @@
   },
   "scripts": {
     "build": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build stripes.config.js",
+    "build-cny": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build cny.stripes.config.js",
+    "build-palci": "export NODE_OPTIONS=\"--max-old-space-size=4096 $NODE_OPTIONS\"; stripes build palci.stripes.config.js",
     "stripes": "stripes",
     "start": "stripes serve stripes.config.js",
     "build-module-descriptors": "node ./build-module-descriptors.js",

@@ -150,5 +150,9 @@
   {
     "id": "folio_users-5.0.7",
     "action": "enable"
+  },
+  {
+    "id": "folio_inventory-5.0.5",
+    "action": "enable"
   }
 ]
